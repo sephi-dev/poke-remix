@@ -9,6 +9,7 @@ import {
 } from "remix";
 import type { MetaFunction } from "remix";
 import tailwindStyles from "./tailwind.css"
+import {Layout} from "~/layouts";
 
 export let links: LinksFunction = () => {
   return [
@@ -24,14 +25,15 @@ export default function App() {
   return (
     <html lang="en">
       <head>
-        <title>Remix JS - starter</title>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1" />
         <Meta />
         <Links />
       </head>
       <body>
-        <Outlet />
+        <Layout>
+          <Outlet />
+        </Layout>
         <ScrollRestoration />
         <Scripts />
         {process.env.NODE_ENV === "development" && <LiveReload />}
