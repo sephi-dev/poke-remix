@@ -3,7 +3,11 @@ module.exports = {
     content: ["./app/**/*.{ts,tsx}"],
     darkMode: "class", // or 'media' or 'class'
     theme: {
-        extend: {},
+        extend: {
+            fontFamily: {
+                'sans': ['Poppins', 'Helvetica', 'Arial', 'sans-serif']
+            }
+        },
     },
     variants: {
         extend: {},

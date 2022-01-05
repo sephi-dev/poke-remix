@@ -1,7 +1,7 @@
 export default function Index() {
   return (
     <div className="">
-      <h1>Welcome to Remix</h1>
+      <h1 className="font-black text-10">Hello.code</h1>
     </div>
   );
 }
