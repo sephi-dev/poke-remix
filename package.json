@@ -4,6 +4,8 @@
   "description": "",
   "license": "",
   "scripts": {
+    "lint": "eslint ./app --max-warnings 8",
+    "lint:fix": "eslint './app/**/*.{ts,tsx}' --fix",
     "build": "npm run build:css && remix build",
     "build:css": "tailwindcss -i ./app/glossy/tailwind.css -o ./app/tailwind.css --minify",
     "dev": "concurrently \"npm run dev:css\" \"remix dev\"",
@@ -24,6 +26,8 @@
     "@tsconfig/remix": "^1.0.0",
     "@types/react": "^17.0.24",
     "@types/react-dom": "^17.0.9",
+    "@typescript-eslint/eslint-plugin": "^5.9.0",
+    "@typescript-eslint/parser": "^5.9.0",
     "autoprefixer": "^10.4.1",
     "concurrently": "^7.0.0",
     "eslint": "^8.6.0",
