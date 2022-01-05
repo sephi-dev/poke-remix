@@ -11,7 +11,7 @@ import type { MetaFunction } from "remix";
 import tailwindStyles from "./tailwind.css"
 import {Layout} from "~/layouts";
 
-export let links: LinksFunction = () => {
+export const links: LinksFunction = () => {
   return [
     { rel: "stylesheet", href: tailwindStyles}
   ];
