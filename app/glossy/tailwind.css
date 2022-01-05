@@ -6,52 +6,50 @@
     @font-face {
         font-family: "Poppins";
         font-weight: 300;
-        src: url("./app/glossy/fonts/Poppins-Thin.ttf") format("ttf");
+        src: url('/fonts/poppins-thin.woff2') format('woff2'),
+        url('/fonts/poppins-thin.woff') format('woff');
     }
     @font-face {
         font-family: "Poppins";
         font-weight: 400;
-        src: url("./app/glossy/fonts/Poppins-Light.ttf") format("ttf");
+        src: url('/fonts/poppins-light.woff2') format('woff2'),
+            url('/fonts/poppins-light.woff') format('woff');
     }
     @font-face {
         font-family: "Poppins";
         font-weight: 500;
-        src: url("./app/glossy/fonts/Poppins-Regular.ttf") format("ttf");
+        src: url('/fonts/poppins-regular.woff2') format('woff2'),
+            url('/fonts/poppins-regular.woff') format('woff');
     }
     @font-face {
         font-family: "Poppins";
         font-weight: 500;
         font-style: italic;
-        src: url("./app/glossy/fonts/Poppins-Italic.ttf") format("ttf");
+        src: url('/fonts/poppins-italic.woff2') format('woff2'),
+            url('/fonts/poppins-italic.woff') format('woff');
     }
     @font-face {
         font-family: "Poppins";
         font-weight: 600;
-        src: url("./app/glossy/fonts/Poppins-Medium.ttf") format("ttf");
+        src: url('/fonts/poppins-medium.woff2') format('woff2'),
+            url('/fonts/poppins-medium.woff') format('woff');
     }
     @font-face {
         font-family: "Poppins";
         font-weight: 700;
-        src: url("./app/glossy/fonts/Poppins-Semibold.ttf") format("ttf");
+        src: url('/fonts/poppins-semibold.woff2') format('woff2'),
+            url('/fonts/poppins-semibold.woff') format('woff');
     }
     @font-face {
         font-family: "Poppins";
         font-weight: 800;
-        src: url("./app/glossy/fonts/Poppins-Bold.ttf") format("ttf");
+        src: url('/fonts/poppins-bold.woff2') format('woff2'),
+            url('/fonts/poppins-bold.woff') format('woff');
     }
     @font-face {
         font-family: "Poppins";
         font-weight: 900;
-        src: url("./app/glossy/fonts/Poppins-Black.ttf") format("ttf");
-    }
-    @font-face {
-        font-family: "Poppins";
-        font-weight: 400;
-        src: url("./app/glossy/fonts/Poppins-Regular.ttf") format("ttf");
-    }
-    @font-face {
-        font-family: "Poppins";
-        font-weight: 400;
-        src: url("./app/glossy/fonts/Poppins-Regular.ttf") format("ttf");
+        src: url('/fonts/poppins-black.woff2') format('woff2'),
+            url('/fonts/poppins-black.woff') format('woff');
     }
 }
