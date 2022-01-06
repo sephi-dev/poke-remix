@@ -9,7 +9,7 @@ import {
 } from "remix";
 import type { MetaFunction } from "remix";
 import tailwindStyles from "./tailwind.css"
-import {Layout} from "~/layouts";
+import { Layout } from "~/layouts";
 
 export const links: LinksFunction = () => {
   return [

@@ -1,7 +1,12 @@
 export default function Index() {
   return (
     <div className="">
-      <h1 className="font-black text-2xl">Hello.code</h1>
+      <h1 className="font-serif text-4xl">Sephi.code</h1>
     </div>
   );
 }
+
+
+
+
+

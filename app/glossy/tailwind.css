@@ -13,43 +13,51 @@
         font-family: "Poppins";
         font-weight: 400;
         src: url('/fonts/poppins-light.woff2') format('woff2'),
-            url('/fonts/poppins-light.woff') format('woff');
+        url('/fonts/poppins-light.woff') format('woff');
     }
     @font-face {
         font-family: "Poppins";
         font-weight: 500;
         src: url('/fonts/poppins-regular.woff2') format('woff2'),
-            url('/fonts/poppins-regular.woff') format('woff');
+        url('/fonts/poppins-regular.woff') format('woff');
     }
     @font-face {
         font-family: "Poppins";
         font-weight: 500;
         font-style: italic;
         src: url('/fonts/poppins-italic.woff2') format('woff2'),
-            url('/fonts/poppins-italic.woff') format('woff');
+        url('/fonts/poppins-italic.woff') format('woff');
     }
     @font-face {
         font-family: "Poppins";
         font-weight: 600;
         src: url('/fonts/poppins-medium.woff2') format('woff2'),
-            url('/fonts/poppins-medium.woff') format('woff');
+        url('/fonts/poppins-medium.woff') format('woff');
     }
     @font-face {
         font-family: "Poppins";
         font-weight: 700;
         src: url('/fonts/poppins-semibold.woff2') format('woff2'),
-            url('/fonts/poppins-semibold.woff') format('woff');
+        url('/fonts/poppins-semibold.woff') format('woff');
     }
     @font-face {
         font-family: "Poppins";
         font-weight: 800;
         src: url('/fonts/poppins-bold.woff2') format('woff2'),
-            url('/fonts/poppins-bold.woff') format('woff');
+        url('/fonts/poppins-bold.woff') format('woff');
     }
     @font-face {
         font-family: "Poppins";
         font-weight: 900;
         src: url('/fonts/poppins-black.woff2') format('woff2'),
-            url('/fonts/poppins-black.woff') format('woff');
+        url('/fonts/poppins-black.woff') format('woff');
+    }
+    @font-face {
+        font-family: 'DM Serif';
+        src: url('/fonts/dmserifdisplay-regular.woff2') format('woff2'),
+        url('/fonts/dmserifdisplay-regular.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+
     }
 }
