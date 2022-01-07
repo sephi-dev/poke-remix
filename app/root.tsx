@@ -8,8 +8,11 @@ import {
   ScrollRestoration
 } from "remix";
 import type { MetaFunction } from "remix";
+
 import tailwindStyles from "./tailwind.css"
 import { Layout } from "~/layouts";
+
+
 
 export const links: LinksFunction = () => {
   return [
@@ -18,7 +21,7 @@ export const links: LinksFunction = () => {
 };
 
 export const meta: MetaFunction = () => {
-  return { title: "New Remix App" };
+  return { title: "Gotta catch'em all" };
 };
 
 export default function App() {
