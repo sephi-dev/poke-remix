@@ -18,7 +18,7 @@ export const Card: FunctionComponent<Props> = ({ pokemon, index }) => {
         alt={pokemon.name}
         title={pokemon.name}
       />
-      <h3 className="text-center mt-5 font-bold">{pokemon.name}</h3>
+      <h3 className="text-center mt-5 font-bold uppercase">{pokemon.name}</h3>
     </div>
   );
 };
